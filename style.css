@@ -1,0 +1,41 @@
+body{
+    font-family: "Nunito", Arial, sans-serif;
+    background: #f8f8f8;
+    font-size: 16px;
+    line-height: 1.8;
+    font-weight: 400;
+    color: #999999;
+}
+.hero-wrap{
+    min-height: 100%;
+    position: relative;
+    width: 100%;
+    z-index: 0;
+}
+.navbar-brand span{
+    color: #fff;
+    display: inline-block;
+    line-height: 1.1
+}
+.text-light1{
+    color: #a1a1a1;
+}
+.slider-text{
+    height: 100vh;
+    min-height: 700px;
+}
+.bg-yellow{
+    background-color: #C5A880 !important;
+}
+
+.old-standard-tt-bold {
+  font-family: "Old Standard TT", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+.nunito-regular{
+  font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:300;
+  font-style: normal;
+}
