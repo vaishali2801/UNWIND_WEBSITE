@@ -17,6 +17,9 @@ body{
     display: inline-block;
     line-height: 1.1
 }
+.w-md-100{
+    width: 100%;
+}
 .text-light1{
     color: #a1a1a1;
 }
@@ -38,4 +41,54 @@ body{
   font-optical-sizing: auto;
   font-weight:300;
   font-style: normal;
+}
+.ftc-section{
+    padding: 8em 0;
+    position: relative;
+    width: 100%;
+    overflow-x: hidden;
+}
+.form-wrap{
+    position: relative;
+    overflow: hidden;
+    background-color: #222222;
+}
+.form-group{
+    position: relative;
+    margin-bottom: 0;
+    width: 100%;
+}
+.text-gray{
+    color: #656565 !important;
+}
+.pl-4{
+    padding-left: 24px;
+}
+input {
+  margin-top: 0.5rem;
+}
+
+input::placeholder {
+  font-weight: bold;
+  opacity: 0.5;
+  color: red;
+}
+.text-orange{
+    color: #C5A880;
+}
+.bg-orange{
+background-color: #C5A880;
+}
+input {
+  font-weight: bold;
+  color: green;
+}
+
+.explicit-color::placeholder {
+  /* use the same color as input element to avoid the browser set default color */
+  color: #656565 !important;
+}
+.box:hover{
+    background-color: #222222;
+    color: white;
 }
