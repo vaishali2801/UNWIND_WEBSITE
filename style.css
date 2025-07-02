@@ -20,15 +20,30 @@ body{
 .w-md-100{
     width: 100%;
 }
+/* font color  */
 .text-light1{
     color: #a1a1a1;
+}
+.text-gray{
+    color: #656565 !important;
+}
+.text-orange{
+    color: #C5A880;
+}
+.explicit-color::placeholder {
+  /* use the same color as input element to avoid the browser set default color */
+  color: #656565 !important;
 }
 .slider-text{
     height: 100vh;
     min-height: 700px;
 }
+/* background color  */
 .bg-yellow{
     background-color: #C5A880 !important;
+}
+.bg-orange{
+background-color: #C5A880;
 }
 
 .old-standard-tt-bold {
@@ -58,9 +73,7 @@ body{
     margin-bottom: 0;
     width: 100%;
 }
-.text-gray{
-    color: #656565 !important;
-}
+
 .pl-4{
     padding-left: 24px;
 }
@@ -73,20 +86,9 @@ input::placeholder {
   opacity: 0.5;
   color: red;
 }
-.text-orange{
-    color: #C5A880;
-}
-.bg-orange{
-background-color: #C5A880;
-}
 input {
   font-weight: bold;
   color: green;
-}
-
-.explicit-color::placeholder {
-  /* use the same color as input element to avoid the browser set default color */
-  color: #656565 !important;
 }
 .box:hover{
     background-color: #222222;
@@ -135,4 +137,23 @@ input {
         width: 100%;
         border-radius: 0;
     }
+}
+.room-wrap{
+    background: #fff;
+    margin-bottom: 60px;
+    -webkit-box-shadow: 0px 5px 25px -2px rgba(0, 0, 0, 0.04);
+    -moz-box-shadow: 0px 5px 25px -2px rgba(0, 0, 0, 0.04);
+    box-shadow: 0px 5px 25px -2px rgba(0, 0, 0, 0.04);
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+.room-wrap .box{
+    position: relative;
+    transition: all 0.5s;
+}
+.box a:hover{
+    background-color: transparent;
 }
