@@ -121,6 +121,17 @@ input {
 .p2{
     color: #C5A880;
 }
+.p3{
+    color: #C5A880;
+    font-size: 50px;
+    text-align: center ;
+}
+.p4{
+    color: #C5A880;
+    font-size: 12px;
+    text-align: center;
+    padding-top: 5px;
+}
 .box4{
     width: 200px;
     height: 200px;
@@ -140,6 +151,9 @@ input {
         width: 100%;
         border-radius: 0;
     }
+}
+.card-text{
+    line-height: 30px;
 }
 .room-wrap{
     background: #fff;
@@ -199,4 +213,27 @@ input {
     /* text-align: right; */
     font-size: 20px;
     float: right;
+}
+@media(max-width:1150px){
+   .img-1{
+     height: 300px;
+} 
+}
+.name{
+    font-weight: 600;
+    font-size: 22px;
+    margin-bottom: 7px;
+    color: #222222;
+}
+.box-1{
+    background-color: white;
+}
+.box-1 p{
+    line-height: 32px;
+}
+.text-gray-1{
+    color: #B2B2B2;
+}
+.h-2{
+    height: 250px;
 }
