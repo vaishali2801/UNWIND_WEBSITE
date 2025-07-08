@@ -180,7 +180,7 @@ input {
     margin-bottom: 10px;
     background-color: white;
     border: 1px solid white;
-    padding: 30px;
+    padding: 25px;
     -moz-transition: all 0.3s ease;
     -o-transition: all 0.3s ease;
     -webkit-transition: all 0.3s ease;
@@ -208,16 +208,11 @@ input {
 }
 
 .pricing-entry .text .price {
-    width: 80px;
+    width: 100px;
     color: #c5a880;
     /* text-align: right; */
     font-size: 20px;
     float: right;
-}
-@media(max-width:1150px){
-   .img-1{
-     height: 300px;
-} 
 }
 .name{
     font-weight: 600;
@@ -236,4 +231,19 @@ input {
 }
 .h-2{
     height: 250px;
+}
+.bg-yellow{
+    background-color:#C5A880;
+}
+.ri-twitter-fill{
+     font-size: 14px;
+}
+.bg-dark-1{
+    background-color: #1A1A1A;
+}
+h2{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.text-lightwhite{
+    color: #a0a0a0 !important;
 }
