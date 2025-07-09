@@ -34,21 +34,18 @@ body{
     color: #C5A880;
 }
 .explicit-color::placeholder {
-  /* use the same color as input element to avoid the browser set default color */
   color: #656565 !important;
 }
 .slider-text{
     height: 100vh;
     min-height: 700px;
 }
-/* background color  */
 .bg-yellow{
     background-color: #C5A880 !important;
 }
 .bg-orange{
 background-color: #C5A880;
 }
-
 .old-standard-tt-bold {
   font-family: "Old Standard TT", serif;
   font-weight: 700;
@@ -106,9 +103,6 @@ input {
 .box h2:hover{
     color: white;
 
-}
-.box:hover img{
-    background-color: white;
 }
 .box2 h1{
     line-height: 90px;
@@ -186,7 +180,6 @@ input {
     -webkit-transition: all 0.3s ease;
     -ms-transition: all 0.3s ease;
     transition: all 0.3s ease;
-
 }
 .pricing-entry:hover{
     background-color: #222222;
@@ -206,7 +199,6 @@ input {
     position: relative;
     z-index: 0;
 }
-
 .pricing-entry .text .price {
     width: 100px;
     color: #c5a880;
@@ -235,6 +227,9 @@ input {
 .bg-yellow{
     background-color:#C5A880;
 }
+.text-yellow{
+    color:#C5A880;
+}
 .ri-twitter-fill{
      font-size: 14px;
 }
@@ -246,4 +241,24 @@ h2{
 }
 .text-lightwhite{
     color: #a0a0a0 !important;
+}
+.width{
+    width: 340px !important;
+}
+.bg-black{
+    background-color: #151515d2 !important;
+}
+.col-lg-10 .btn-1:hover{
+    background-color: white !important;
+    color: black !important;
+}
+.col-lg .btn-2:hover{
+    background-color: #C5A880 !important;
+}
+.display-7{
+    font-size: 14px;
+    font-weight: 500;
+}
+.list-unstyled a:hover{
+    color: #C5A880 !important;
 }
